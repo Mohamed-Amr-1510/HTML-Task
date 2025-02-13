@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Book Store</title>
+    <meta name="description" content="This Is Our Book Store" />
+  </head>
+  <body>
+    <!--
+      src => Source
+      alt => Alternate Text . The text that will appear if the photo doesn't exist
+     -->
+    <h1>Book Store</h1>
+    <p>This Is My <b>Book Store</b>, Welcome</p>
+    <img decoding="async"
+      src="https://elzero.org/wp-content/uploads/2018/06/cover-speed-website.png"
+      alt=""
+      width="200px"
+      height="200px">
+      <!-- 
+      If the photo is in the same folder , we put its name only
+      If it isn't in the same folder , we will use .. to go back and / + folder_name to go forward
+      
+      -->
+    <img decoding="async" src="imgs/home/cover-speed-website.png" alt="">
+    <img decoding="async" src="../cover-speed-website.png" alt="Will Not Show">
+    <img decoding="async" src="missing-image.png" alt="Logo Testing">
+  </body>
+</html>
